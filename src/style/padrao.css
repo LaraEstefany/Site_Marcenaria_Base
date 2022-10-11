@@ -6,11 +6,6 @@ header {
     height: 15vh;
 }
 
-nav {
-    display: flex;
-    justify-content: end;
-}
-
 ul {
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -49,7 +44,6 @@ footer {
 }
 
 .copyright {
-    display: block;
     color: aliceblue;
     margin-top: 2vh;
     font-family: 'Times New Roman', Times, serif;
