@@ -1,0 +1,58 @@
+header {
+    display: flex;
+    background-color: rgb(216, 215, 215);
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+ul {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.menu:hover {
+    color: chocolate;
+}
+
+li {
+    margin-right: 2vw;
+}
+
+.logoBase {
+    height: 12vh;
+}
+
+.logoBase:hover {
+    height: 12.5vh;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: chocolate
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 29vh;
+    background-image: url(../assets/padrao/background_rodape.jpg);
+}
+
+.copyright {
+    display: block;
+    color: aliceblue;
+    margin-top: 2vh;
+}
