@@ -27,6 +27,7 @@ li {
 
 .logoBase {
     height: 12vh;
+    width: auto;
 }
 
 .logoBase:hover {
@@ -55,4 +56,6 @@ footer {
     display: block;
     color: aliceblue;
     margin-top: 2vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
 }
