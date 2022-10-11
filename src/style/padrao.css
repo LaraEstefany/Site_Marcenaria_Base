@@ -2,7 +2,7 @@ header {
     display: flex;
     background-color: rgb(216, 215, 215);
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 15vh;
 }
 
@@ -17,21 +17,8 @@ ul {
     font-weight: 800;
 }
 
-.menu:hover {
-    color: chocolate;
-}
-
 li {
     margin-right: 2vw;
-}
-
-.logoBase {
-    height: 12vh;
-    width: auto;
-}
-
-.logoBase:hover {
-    height: 12.5vh;
 }
 
 a {
@@ -50,6 +37,15 @@ footer {
     align-items: center;
     height: 29vh;
     background-image: url(../assets/padrao/background_rodape.jpg);
+}
+
+.logoBase {
+    height: 12vh;
+    width: auto;
+}
+
+.logoBase:hover {
+    height: 12.5vh;
 }
 
 .copyright {
