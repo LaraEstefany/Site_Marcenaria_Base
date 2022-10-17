@@ -1,0 +1,59 @@
+main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 61vw;
+    height: 85vh;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 3vh;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+}
+
+.radio {
+    display: inline-block;
+}
+
+.contato {
+    color: chocolate;
+}
+
+.caixa {
+    width: 30vw;
+    height: 4vh;
+}
+
+#mensagem {
+    display: block;
+    width: 30vw;
+    height: 25vh
+}
+
+#submit {
+    height: 6vh;
+    width: 20vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: rgb(241, 139, 4);
+    color: aliceblue;
+    border: 0;
+    border-radius: 3px;
+}
