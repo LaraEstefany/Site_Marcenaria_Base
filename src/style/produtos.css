@@ -3,6 +3,7 @@ main {
     align-items: center;
     justify-content: center;
     width: 60vw;
+    height: 82vh;
     flex-wrap: wrap;
     row-gap: 15px;
     column-gap: 15px;
@@ -17,7 +18,8 @@ div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: fit-content;
+    height: 32vh;
+    width: 15vw;
     padding: 20px;
     border: 2px solid rgb(122, 122, 122);
     border-radius: 10px;
@@ -29,6 +31,8 @@ div:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 33vh;
+    width: 15.5vw;
     padding: 20px;
     border: 2px solid chocolate;
     border-radius: 10px;
@@ -43,8 +47,8 @@ div:hover p {
 }
 
 div:hover img {
-    height: 32vh;
-    width: 16vw;
+    height: 30vh;
+    width: 14vw;
     border-radius: 10px;
     transition: 0.5s;
 }
