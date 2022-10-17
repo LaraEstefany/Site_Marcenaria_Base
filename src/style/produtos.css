@@ -31,9 +31,7 @@ div:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 33vh;
-    width: 15.5vw;
-    padding: 20px;
+    transform: scale(1.1);
     border: 2px solid chocolate;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
