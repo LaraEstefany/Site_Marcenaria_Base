@@ -77,8 +77,8 @@ time,
 mark,
 audio,
 video,
-input,
-textarea,
+/* input, */
+/* textarea, */
 select {
     background: transparent;
     border: 0;
