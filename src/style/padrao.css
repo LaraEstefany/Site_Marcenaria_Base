@@ -40,7 +40,7 @@ footer {
 }
 
 .logoBase:hover {
-    height: 12.5vh;
+    transform: scale(1.1);
 }
 
 .copyright {
