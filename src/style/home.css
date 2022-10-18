@@ -1,0 +1,72 @@
+main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 65vw;
+    height: 130vh;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    background-color: rgb(216, 215, 215);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 9vh;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    font-weight: 500;
+}
+
+section {
+    display: flex;
+    width: 65vw;
+    justify-content: space-between;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    margin-right: 15vw;
+}
+
+li:hover {
+    color: chocolate;
+}
+
+.vermelho {
+    color: crimson;
+}
+
+.missao {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.home {
+    color: chocolate;
+}
+
+.beneficios {
+    height: 40vh;
+}
+
+#banner {
+    width: 65vw
+}
+
+#beneficios {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
