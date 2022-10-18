@@ -16,7 +16,6 @@ main {
 label {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    margin-bottom: 3vh;
 }
 
 p {
@@ -37,13 +36,13 @@ input {
 }
 
 .caixa {
-    width: 30vw;
+    width: 36vw;
     height: 4vh;
+    border: solid, rgb(134, 134, 134);
 }
 
 #mensagem {
     display: block;
-    width: 30vw;
     height: 25vh
 }
 
