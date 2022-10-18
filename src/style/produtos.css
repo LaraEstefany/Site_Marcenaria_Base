@@ -36,6 +36,7 @@ div:hover {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 div:hover p {
